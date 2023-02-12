@@ -37,7 +37,7 @@ select.addEventListener('click', function (e) {
         user.setAttribute('src', 'img/pedra.png');
         computer.setAttribute('src', 'img/papel.png');
 
-        resullt.innerHTML += `<h3> WINNER </h3>`
+        resullt.innerHTML += `<h3> GANHADOR </h3>`
         resullt.innerHTML += `<img src="img/papel.png" >`
 
         recarregar()
@@ -47,7 +47,7 @@ select.addEventListener('click', function (e) {
         user.setAttribute('src', 'img/pedra.png');
         computer.setAttribute('src', 'img/tesouraa.png');
 
-        resullt.innerHTML += `<h3> WINNER </h3>`
+        resullt.innerHTML += `<h3> GANHADOR </h3>`
         resullt.innerHTML += `<img src="img/pedra.png" >`
 
         recarregar()
@@ -68,7 +68,7 @@ select.addEventListener('click', function (e) {
         user.setAttribute('src', 'img/papel.png');
         computer.setAttribute('src', 'img/pedra.png');
 
-        resullt.innerHTML += `<h3> WINNER </h3>`
+        resullt.innerHTML += `<h3> GANHADOR </h3>`
         resullt.innerHTML += `<img src="img/papel.png" >`
 
         recarregar()
@@ -78,7 +78,7 @@ select.addEventListener('click', function (e) {
         user.setAttribute('src', 'img/papel.png');
         computer.setAttribute('src', 'img/tesouraa.png');
 
-        resullt.innerHTML += `<h3> WINNER </h3>`
+        resullt.innerHTML += `<h3> GANHADOR </h3>`
         resullt.innerHTML += `<img src="img/tesouraa.png" >`
 
         recarregar()
@@ -98,7 +98,7 @@ select.addEventListener('click', function (e) {
         user.setAttribute('src', 'img/tesouraa.png');
         computer.setAttribute('src', 'img/pedra.png');
 
-        resullt.innerHTML += `<h3> WINNER </h3>`
+        resullt.innerHTML += `<h3> GANHADOR </h3>`
         resullt.innerHTML += `<img src="img/pedra.png" >`
 
         recarregar()
@@ -108,7 +108,7 @@ select.addEventListener('click', function (e) {
         user.setAttribute('src', 'img/tesouraa.png');
         computer.setAttribute('src', 'img/papel.png');
 
-        resullt.innerHTML += `<h3> WINNER </h3>`
+        resullt.innerHTML += `<h3> GANHADOR </h3>`
         resullt.innerHTML += `<img src="img/tesouraa.png" >`
 
         recarregar()
