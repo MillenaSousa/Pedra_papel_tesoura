@@ -119,7 +119,7 @@ select.addEventListener('click', function (e) {
 })
 
 function recarregar() {
-    setTimeout(() => { window.location.reload(true) }, 1000);
+    setTimeout(() => { window.location.reload(true) }, 2000);
 
 
     return
