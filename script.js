@@ -1,6 +1,6 @@
 var user = document.getElementById('user')
 var computer = document.getElementById('comput')
-var audio = document.getElementById('mp3-figth')
+// var audio = document.getElementById('mp3-figth')
 var resullt = document.getElementById('resullt')
 var figth = document.getElementById('img-figth')
 
@@ -12,13 +12,14 @@ select.addEventListener('click', function (e) {
     var comput = Math.floor(Math.random() * 3);
 
     // 0 pedra -- 1 papel -- 2 tesoura 
-    inicio()
+//     inicio()
 
 
-    function inicio() {
-        audio.setAttribute('src', 'Efeito_sonoro_Mortal_Kombat_Fight_-_Mortal_Kombat_sound_effect_FightMP3_128K.mp3')
+//     function inicio() {
+//         audio.setAttribute('src', 'Efeito_sonoro_Mortal_Kombat_Fight_-_Mortal_Kombat_sound_effect_FightMP3_128K.mp3')
 
-    }
+//     }
+    
     setTimeout(() => { game() }, 1000);
 
 
@@ -121,7 +122,7 @@ select.addEventListener('click', function (e) {
 })
 
 function recarregar() {
-    setTimeout(() => { window.location.reload(true) }, 3000);
+    setTimeout(() => { window.location.reload(true) }, 2500);
 
 
     return
